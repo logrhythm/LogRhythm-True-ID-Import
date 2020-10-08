@@ -41,7 +41,7 @@
 
 param (
      [Parameter(Mandatory = $false, Position = 0)]
-     [string]$CsvFileToImportFrom = 'AD.csv'
+     [string]$CsvFileToImportFrom = 'AD-export.csv'
 
     ,[Parameter(Mandatory = $false, Position = 1)]
      [ValidateSet('AddNewOnesOnly', 'Synchronise', ignorecase=$true)]
