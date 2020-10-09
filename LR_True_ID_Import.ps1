@@ -696,7 +696,7 @@ if (-Not $DoingNothing)
 
             if ($Result -ne $null) {
                 if ($Result -is [System.String]) {
-                    Log-Error $Result
+                    Log-Error ("Server returned a message when processing user: ""{0}"". Message: {1}" -f $ADUser.UserPrincipalName, $Result)
                 }
                 else
                 {
@@ -740,7 +740,7 @@ if (-Not $DoingNothing)
 
             if ($Result -ne $null) {
                 if ($Result -is [System.String]) {
-                    Log-Error $Result
+                    Log-Error ("Server returned a message when processing user: ""{0}"". Message: {1}" -f $ADUser.UserPrincipalName, $Result)
                 }
                 else
                 {
@@ -790,7 +790,7 @@ if (-Not $DoingNothing)
                     
                     if ($Result -ne $null) {
                         if ($Result -is [System.String]) {
-                            Log-Error $Result
+                            Log-Error ("Server returned a message when processing Identity: ""{0}"". Message: {1}" -f $displayIdentifier, $Result)
                         }
                         else
                         {
