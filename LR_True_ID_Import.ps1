@@ -11,6 +11,10 @@
 #
 # Change Log:
 #
+# v0.5 - 2020-10-09 - Tony Massé (tony.masse@logrhythm.com)
+# - Better logging
+# - Catch and logs when API call cause error
+#
 # v0.4 - 2020-10-08 - Tony Massé (tony.masse@logrhythm.com)
 # - Disable dead Identities
 # - Enable disabled Identities
@@ -81,7 +85,7 @@ else
 # ###########################
 
 # Version
-$Version = "v0.4 - 2020-10-08 - Tony Masse (tony.masse@logrhythm.com)"
+$Version = "v0.5 - 2020-10-09 - Tony Masse (tony.masse@logrhythm.com)"
 
 # Logging level
 $Logginglevel = @{"INFO" = $true; # Default: True
