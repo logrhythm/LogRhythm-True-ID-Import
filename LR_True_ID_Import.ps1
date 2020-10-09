@@ -11,6 +11,9 @@
 #
 # Change Log:
 #
+# v1.0.1 - 2020-10-09 - Tony Massé (tony.masse@logrhythm.com)
+# - Better error message in case $Result is a string
+#
 # v1.0 - 2020-10-09 - Tony Massé (tony.masse@logrhythm.com)
 # - Turn Debug and Verbose off
 #
