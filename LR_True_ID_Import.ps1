@@ -11,6 +11,9 @@
 #
 # Change Log:
 #
+# v1.0 - 2020-10-09 - Tony Massé (tony.masse@logrhythm.com)
+# - Turn Debug and Verbose off
+#
 # v0.5 - 2020-10-09 - Tony Massé (tony.masse@logrhythm.com)
 # - Better logging
 # - Catch and logs when API call cause error
@@ -85,13 +88,13 @@ else
 # ###########################
 
 # Version
-$Version = "v0.5 - 2020-10-09 - Tony Masse (tony.masse@logrhythm.com)"
+$Version = "v1.0 - 2020-10-09 - Tony Masse (tony.masse@logrhythm.com)"
 
 # Logging level
 $Logginglevel = @{"INFO" = $true; # Default: True
                   "ERROR" = $true; # Default: True
-                  "VERBOSE" = $true;  # Default: False
-                  "DEBUG" = $true; # Default: False
+                  "VERBOSE" = $false;  # Default: False
+                  "DEBUG" = $false; # Default: False
                  }
 
 $LoggingColors = @{"INFO" = "White"; # Default: "White"
