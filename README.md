@@ -15,7 +15,7 @@ This requires:
 - [Logrhythm.Tools](https://github.com/LogRhythm-Tools/LogRhythm.Tools)
 	- Publishers: some cool LogRhythm enthusiasts
 	- Releases: https://github.com/LogRhythm-Tools/LogRhythm.Tools/releases
-	- :exclamation: At the time of publishing (2020-10-16), it's best to use my Forked version of the LogRhythm.Tools, as it provides a few required features for this script to work (Title and unique VendorUniqueKey)
+	- :exclamation: At the time of publishing (2020-10-16), it's best to use my Forked version of the LogRhythm.Tools, as it provides a few required features for this script to work (`Title` for Identities and properly unique `VendorUniqueKey`)
 		- Pick at least version 1.0.1.3^
 			- [v1.0.1.3 - Release Candidate - Proxy Aware and Identity Title and VendorUniqueKey](https://github.com/TonyMasse/LogRhythm.Tools/releases/tag/v1.0.1.3-rc-proxy-title-vendoruniquekey)
 
