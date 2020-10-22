@@ -91,7 +91,7 @@ else
 # ###########################
 
 # Version
-$Version = "v1.0 - 2020-10-09 - Tony Masse (tony.masse@logrhythm.com)"
+$Version = "v1.0.1 - 2020-10-09 - Tony Masse (tony.masse@logrhythm.com)"
 
 # Logging level
 $Logginglevel = @{"INFO" = $true; # Default: True
